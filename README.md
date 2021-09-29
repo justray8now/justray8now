@@ -1,13 +1,9 @@
-- <?php
-
-namespace Rahmat AY;
-
-class About extends Me
-{
+    
     public function getCurrentWorkplace(): array
     {
         return [
-            'workplace' => [
+           'name' => 'Rahmat AY'
+           'workplace' => [
                 'college' => 'Yogyakarta State University',
                 'position' => 'Student'         
             ]
